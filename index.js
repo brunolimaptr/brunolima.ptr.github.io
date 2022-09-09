@@ -1,3 +1,4 @@
+
 const casa = "casapequena"
 const tamanhometros = Number(40)
 const corazul = Boolean(true)
@@ -35,3 +36,48 @@ console.log(cor)
 console.log(todososdados)
 console.log(todososdados2)
 console.log(todososdados3)
+
+// semana 2
+
+const objeto1 = {
+casa :"casapequena",
+tamanhometros : Number(40),
+corazul : Boolean(true)
+}
+
+const objeto2 = {
+casa2 : "casamedia",
+tamanhometros2 : Number(60),
+corverde : Boolean(true)
+}
+
+const objeto3 = {
+casa3 : "casamaior",
+tamanhometros3 : Number(90),
+coramarelo : Boolean(false)    
+}
+
+const array = []
+
+if (corazul === true){
+
+    array.push(objeto1)
+}
+
+else {(alert("Objeto casa pequena não foi adicionado"))}
+
+if (corverde === true){
+
+    array.push(objeto2)
+}
+
+else {(alert("Objeto casa media não foi adicionado"))}
+
+if (coramarelo === true){
+
+    array.push(objeto3)
+}
+
+else {(alert("Objeto casa maior não foi adicionado"))}
+
+console.log(array)
