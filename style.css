@@ -1,0 +1,89 @@
+header{
+    background-color: rgb(89,11,43);
+    border: 2px solid gold;
+    top: 0;
+    padding: 25px;
+    text-align: center;
+    margin: -10px -11px 0px -10px;
+    font-size: 25px;
+}
+
+a{
+    color: goldenrod;
+}
+
+article{
+    width: -100px;
+    margin-top: 30px;
+    margin-left: 550px auto;
+    text-align: center;
+}
+
+button:active{
+    background-color: white;
+}
+
+body{
+    background-color:white;
+    text-align: center;      
+}
+
+.brasil{
+    border: 1px solid black;
+    margin-bottom: 50px;
+    margin-top: 70px;
+    
+}
+
+.espanha{
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.chile{
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.alemanha{
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.italia{
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.uruguai{
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.frança{
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.argentina{
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.inglaterra{
+    border: 1px solid black;
+    margin-bottom: 70px;
+}
+
+footer{
+    background-color: rgb(89,11,43);
+    border: 2px solid gold;
+    top: 0;
+    padding: 25px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -20px;
+    font-size: 20px;
+}
