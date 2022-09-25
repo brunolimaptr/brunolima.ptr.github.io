@@ -24,55 +24,83 @@ button:active{
 }
 
 body{
-    background-color:white;
-    text-align: center;      
+    background-image: url(./img2/jogadores-de-futebol-em-acao-no-estadio-profissional_654080-1166.jpg);
+    text-align: center;
+    background-size: 3000px  6000px;      
 }
 
 .brasil{
     border: 1px solid black;
-    margin-bottom: 50px;
-    margin-top: 70px;
+    margin-bottom: 50px ;
+    margin-top: 70px ;
+    margin-left: 800px ;
+    margin-right: 800px ;
+    padding-top: 70px;
     
 }
 
 .espanha{
     border: 1px solid black;
     margin-bottom: 50px;
+    margin-left: 800px ;
+    margin-right: 800px;
+    padding-top: 70px;
 }
 
 .chile{
     border: 1px solid black;
     margin-bottom: 50px;
+    margin-left: 800px ;
+    margin-right: 800px;
+    padding-top: 70px;
 }
 
 .alemanha{
     border: 1px solid black;
     margin-bottom: 50px;
+    margin-left: 800px ;
+    margin-right: 800px;
+    padding-top: 70px;
 }
 
 .italia{
     border: 1px solid black;
     margin-bottom: 50px;
+    margin-left: 800px ;
+    margin-right: 800px;
+    padding-top: 70px;
 }
 
 .uruguai{
     border: 1px solid black;
     margin-bottom: 50px;
+    margin-left: 800px ;
+    margin-right: 800px;
+    padding-top: 70px;
 }
 
 .frança{
     border: 1px solid black;
     margin-bottom: 50px;
+    margin-left: 800px ;
+    margin-right: 800px;
+    padding-top: 70px;
 }
 
 .argentina{
     border: 1px solid black;
     margin-bottom: 50px;
+    margin-left: 800px ;
+    margin-right: 800px;
+    padding-top: 70px;
 }
 
 .inglaterra{
     border: 1px solid black;
     margin-bottom: 70px;
+    margin-left: 800px ;
+    margin-right: 800px;
+    padding-top: 70px;
 }
 
 footer{
@@ -85,5 +113,9 @@ footer{
     margin-bottom: -10px;
     margin-left: -10px;
     margin-right: -20px;
-    font-size: 20px;
+    font-size: 25px;
+
 }
+
+
+

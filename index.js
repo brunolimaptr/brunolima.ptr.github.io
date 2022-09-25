@@ -233,12 +233,18 @@ const resultado = (objeto) =>{
 console.log(resultado(objeto3))
 
 const array2 = [
-{nome:"Brasil", 
-nome: "chile", nome: "espanha"}]
+    {nome: "Brasil", vitorias: 5, corcamisa: "amarela"},  
+    {nome: "espanha", vitorias: 1, corcamisa: "vermelha"},
+    {nome: "Alemanha", vitorias: 4, corcamisa: "branca"},
+    {nome: "Itália", vitorias: 4, corcamisa: "azul"},
+    {nome: "Uruguai", vitorias: 2, corcamisa: "azul celeste"},
+    {nome: "França", vitorias: 2, corcamisa: "azul"},
+    {nome: "Argentina", vitorias: 2, corcamisa: "azul"},
+    {nome: "Inglaterra", vitorias: 1, corcamisa: "branca"},
+]
 
 const apenas = array2.filter((palavra) =>{
-palavra.array2 === "Brasil"
-return palavra.array2})
+return palavra.nome === "Brasil"})
 
 console.log(apenas)
 
