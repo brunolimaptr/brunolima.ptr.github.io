@@ -18,10 +18,11 @@ a{
 }
 
 article{
-    width: 100vw;
+    width: 90vw;
     padding-top: 40px;
     padding-bottom: 50px;
     text-align: center;
+    padding-left: 4vw;
     
 }
 
@@ -145,6 +146,7 @@ footer{
     text-align: center;
     padding-bottom: 1vw;
     font-size: 20px;
+    padding-right: 2vw;
    
     
 }
@@ -176,8 +178,6 @@ aside{
   color: goldenrod;
   font-size: 22px;
   
-  
-   
 }
 
 
@@ -236,7 +236,7 @@ h2{
 }
 footer{
     font-size: 20px;
-    padding-left: 4vw;
+    padding-left: 6vw;
         
         
  }
@@ -263,3 +263,37 @@ aside{
 
 }
 
+@media screen and (min-device-width : 801px) and (max-device-width : 1200px){
+
+    h2{
+        font-size: 20px;
+            
+    }
+    footer{
+        font-size: 20px;
+        padding-left: 6vw;
+            
+            
+     }
+    header{
+        font-size: 18px;
+        padding-left: 2vw;
+    }
+    section{
+        padding-left: 16vw;
+        
+    }
+    article{
+        width: 1vw;
+        padding-left: 36vw;
+    }
+    
+    
+    aside{
+         font-size: 24px;
+         margin-top: -6em;
+    }
+            
+            
+    
+    }

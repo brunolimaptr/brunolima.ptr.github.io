@@ -39,7 +39,13 @@ const campeao9 = Boolean(true)
 const vitoriastotal = vitorias + vitorias2 + vitorias3 + vitorias4 + vitorias5 + vitorias6 + vitorias7 + vitorias8 + vitorias9
 const vitoriastotal2 = vitorias / 3
 
+console.log(vitoriastotal2)
+
+
 const campeaodomundo = (campeao && campeao2 && campeao3 && campeao4 && campeao5 && campeao6 && campeao7 && campeao8 && campeao9)
+
+console.log(campeaodomundo)
+
 
 const arrayselecao = [`camisa amarela`]
 const arraydetalhe = arrayselecao
@@ -69,6 +75,8 @@ const arrayselecao9 = [`camisa branca`]
 const arraydetalhe9 = arrayselecao9
 
 
+
+
 const todososdados = (`${selecao.toLocaleUpperCase()} \nVitórias: ${vitorias}  \nCampeão: ${campeao} \nDetalhe: ${arraydetalhe}`)
 const todososdados2 = (`${selecao2.toLocaleUpperCase()} \nVitórias: ${vitorias2}  \nCampeão: ${campeao2} \nDetalhe: ${arraydetalhe2}`)
 const todososdados3 = (`${selecao3.toLocaleUpperCase()} \nVitórias: ${vitorias3}  \nCampeão: ${campeao3} \nDetalhe: ${arraydetalhe3}`)
@@ -79,9 +87,6 @@ const todososdados7 = (`${selecao7.toLocaleUpperCase()} \nVitórias: ${vitorias7
 const todososdados8 = (`${selecao8.toLocaleUpperCase()} \nVitórias: ${vitorias8}  \nCampeão: ${campeao8} \nDetalhe: ${arraydetalhe8}`)
 const todososdados9 = (`${selecao9.toLocaleUpperCase()} \nVitórias: ${vitorias9}  \nCampeão: ${campeao9} \nDetalhe: ${arraydetalhe9}`)
 
-console.log(vitoriastotal2)
-
-console.log(campeaodomundo)
 
 console.log(todososdados)
 console.log(todososdados2)
@@ -93,161 +98,170 @@ console.log(todososdados7)
 console.log(todososdados8)
 console.log(todososdados9)
 
+
 // semana 2
 
 const objeto1 = {
-selecao :"Brasil",
-vitorias : Number(5),
-campeao : Boolean(true)
+selecao:"Brasil",
+vitorias: Number(5),
+campeao: Boolean(true),
+corcamisa:["Amarela","azul"]
 }
 
 const objeto2 = {
-selecao2 : "Espanha",
-vitorias2 : Number(1),
-campeao2 : Boolean(true)
+selecao: "Espanha",
+vitorias: Number(1),
+campeao: Boolean(true),
+corcamisa:["Branca","Vermelha"]
 }
 
 const objeto3 = {
-selecao3 : "Chile",
-vitorias3 : Number(3),
-campeao3 : Boolean(false)    
+selecao: "Chile",
+vitorias: Number(3),
+campeao: Boolean(false),
+corcamisa:["Branca","Vermelha"]    
 }
 
 const objeto4 = {
-selecao4 : "Alemanha",
-vitorias4 : Number(4),
-campeao4 : Boolean(true)    
+selecao: "Alemanha",
+vitorias: Number(4),
+campeao: Boolean(true),
+corcamisa:["Branca","Preta"]    
 }
 
 const objeto5 = {
-selecao3 : "Itália",
-vitorias3 : Number(4),
-campeao3 : Boolean(true)    
+selecao: "Itália",
+vitorias: Number(4),
+campeao: Boolean(true),
+corcamisa:["Azul","Branca"]    
 }
 
 const objeto6 = {
-selecao3 : "Uruguai",
-vitorias3 : Number(2),
-campeao3 : Boolean(true)     
+selecao: "Uruguai",
+vitorias: Number(2),
+campeao: Boolean(true),
+corcamisa:["Branca","Azul"]     
 }
 
 const objeto7 = {
-selecao3 : "França",
-vitorias3 : Number(2),
-campeao3 : Boolean(true)     
+selecao: "França",
+vitorias: Number(2),
+campeao: Boolean(true),
+corcamisa:["Azul","Branca"]     
 }
 
 const objeto8 = {
-selecao3 : "Argentina",
-vitorias3 : Number(2),
-campeao3 : Boolean(true)     
+selecao: "Argentina",
+vitorias: Number(2),
+campeao: Boolean(true),
+corcamisa:["Azul","Branca"]     
 }
 
 const objeto9 = {
-selecao3 : "Inglaterra",
-vitorias3 : Number(1),
-campeao3 : Boolean(true)     
+selecao: "Inglaterra",
+vitorias: Number(1),
+campeao: Boolean(true),
+corcamisa:["Branca","Vermelha"]     
 }
 
 
 const array = []
 
-if (campeao === true){
+if (objeto1.campeao === true){
 
     array.push(objeto1)
 }
 
-else {(alert("Objeto selecao não foi adicionado"))}
+else {(alert("Objeto não foi adicionado"))}
 
-if (campeao2 === true){
+if (objeto2.campeao === true){
 
     array.push(objeto2)
 }
 
-else {(alert("Objeto selecao2 não foi adicionado"))}
+else {(alert("Objeto2 não foi adicionado"))}
 
-if (campeao3 === true){
+if (objeto3.campeao === true){
 
     array.push(objeto3)
 }
 
-else {(alert("Objeto selecao3 não foi adicionado"))}
+else {(alert("Objeto3 não foi adicionado"))}
 
 
 
-if (campeao4 === true){
+if (objeto4.campeao === true){
 
     array.push(objeto4)
 }
 
-else {(alert("Objeto selecao4 não foi adicionado"))}
+else {(alert("Objeto4 não foi adicionado"))}
 
-if (campeao5 === true){
+if (objeto5.campeao === true){
 
     array.push(objeto5)
 }
 
-else {(alert("Objeto selecao5 não foi adicionado"))}
+else {(alert("Objeto5 não foi adicionado"))}
 
-if (campeao6 === true){
+if (objeto6.campeao === true){
 
     array.push(objeto6)
 }
 
-else {(alert("Objeto selecao6 não foi adicionado"))}
+else {(alert("Objeto6 não foi adicionado"))}
 
-if (campeao7 === true){
+if (objeto7.campeao === true){
 
     array.push(objeto7)
 }
 
-else {(alert("Objeto selecao7 não foi adicionado"))}
+else {(alert("Objeto7 não foi adicionado"))}
 
-if (campeao8 === true){
+if (objeto8.campeao === true){
 
     array.push(objeto8)
 }
 
-else {(alert("Objeto selecao8 não foi adicionado"))}
+else {(alert("Objeto8 não foi adicionado"))}
 
-if (campeao9 === true){
+if (objeto9.campeao === true){
 
     array.push(objeto9)
 }
 
-else {(alert("Objeto selecao9 não foi adicionado"))}
+else {(alert("Objeto9 não foi adicionado"))}
 
 
 console.log(array)
 
 
+
 // semana 3
 
-for(i of array){
-    console.log(i)}
 
-const resultado = (objeto) =>{
-    return objeto
+for(let i =0;i < array.length;i++){
+    const todososdados = (`${array[i].selecao.toLocaleUpperCase()} \nVitórias: ${array[i].vitorias}  \nCampeão: ${array[i].campeao} \nDetalhe: ${array[i].corcamisa}`)
+    console.log(todososdados)
 }
 
-console.log(resultado(objeto3))
 
-const array2 = [
-    {nome: "Brasil", vitorias: 5, corcamisa: "amarela"},  
-    {nome: "espanha", vitorias: 1, corcamisa: "vermelha"},
-    {nome: "Alemanha", vitorias: 4, corcamisa: "branca"},
-    {nome: "Itália", vitorias: 4, corcamisa: "azul"},
-    {nome: "Uruguai", vitorias: 2, corcamisa: "azul celeste"},
-    {nome: "França", vitorias: 2, corcamisa: "azul"},
-    {nome: "Argentina", vitorias: 2, corcamisa: "azul"},
-    {nome: "Inglaterra", vitorias: 1, corcamisa: "branca"},
-]
+const resultado = (timeEscolhido) =>{
+    const stringObjeto = (`${timeEscolhido.selecao.toLocaleUpperCase()} \nVitórias: ${timeEscolhido.vitorias}  \nCampeão: ${timeEscolhido.campeao} \nDetalhe: ${timeEscolhido.corcamisa.join(" ")}`)
+    return stringObjeto
+}
 
-const apenas = array2.filter((palavra) =>{
-return palavra.nome === "Brasil"})
+console.log(resultado(objeto1))
 
-console.log(apenas)
 
+const retornar = (listaDeTime, nomeDoTime) =>{
+    for(let i =0;i < listaDeTime.length;i++){
+        if(listaDeTime[i].selecao === nomeDoTime){
+        return listaDeTime[i]
+        }
+    }
+}
+console.log(retornar(array, "Brasil"))
 
 
 
