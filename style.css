@@ -9,7 +9,7 @@ header{
     border: 2px solid gold;
     text-align: center;
     padding-bottom: 2.5vw;
-    font-size: 20px;
+    font-size: 34px;
     
 }
 
@@ -19,12 +19,32 @@ a{
 
 article{
     width: 90vw;
-    padding-top: 40px;
-    padding-bottom: 50px;
+    padding-top: 4vh;
+    padding-bottom: 5vh;
     text-align: center;
     padding-left: 4vw;
+
     
 }
+
+#name{
+    font-size: 20px;
+}
+
+#botao{
+   font-size: 20px;
+   width: 4vw; 
+}
+
+#botao2{
+
+width: 16vw; 
+margin-top: 30px;
+font-size: 20px;
+
+
+}
+
 
 button:active{
     background-color: white;
@@ -33,110 +53,135 @@ button:active{
 }
 
 
-.brasil{
+#brasil{
     border: 1px none black;
     background-color: rgb(89,11,43);
     padding-right: 6vw;
     padding-left: 6vw;
     padding-bottom: 2vw;
-    color: white;
-    border-radius: 20px;
-    margin-right: 12vw;
-    
-}
-
-.espanha{
-    border: 1px none black;
-    background-color: rgb(89,11,43);
-    padding-right: 6vw;
-    padding-left: 6vw;
-    padding-bottom: 2vw;
-    color: white;
-    border-radius: 20px;
-    margin-right: 12vw;
-}
-
-.chile{
-    border: 1px none black;
-    background-color: rgb(89,11,43);
-    padding-right: 6vw;
-    padding-left: 6vw;
-    padding-bottom: 2vw;
-    color: white;
-    border-radius: 20px;
-    margin-right: 12vw;
-   
-}
-
-.alemanha{
-    border: 1px none black;
-    background-color: rgb(89,11,43);
-    padding-right: 6vw;
-    padding-left: 6vw;
-    padding-bottom: 2vw;
-    color: white;
-    border-radius: 20px;
-    margin-right: 12vw;
-}   
-
-.italia{
-    border: 1px none black;
-    background-color: rgb(89,11,43);
-    padding-right: 6vw;
-    padding-left: 6vw;
-    padding-bottom: 2vw;
-    color: white;
-    border-radius: 20px;
-    margin-right: 12vw;
-    
-}
-
-.uruguai{
-    border: 1px none black;
-    background-color: rgb(89,11,43);
-    padding-right: 6vw;
-    padding-left: 6vw;
-    padding-bottom: 2vw;
-    color: white;
-    border-radius: 20px;
-    margin-right: 12vw;
-    
-}
-
-.frança{
-    border: 1px none black;
-    background-color: rgb(89,11,43);
-    padding-right: 6vw;
-    padding-left: 6vw;
-    padding-bottom: 2vw;
-    color: white;
-    border-radius: 20px;
-    margin-right: 12vw;
-   
-}
-
-.argentina{
-    border: 1px none black;
-    background-color: rgb(89,11,43);
-    padding-right: 6vw;
-    padding-left: 6vw;
-    padding-bottom: 2vw;
-    color: white;
-    border-radius: 20px;
-    margin-right: 12vw;
-   
-}
-
-.inglaterra{
-    border: 1px none black;
-    background-color: rgb(89,11,43);
-    padding-right: 6vw;
-    padding-left: 6vw;
-    padding-bottom: 2vw;
+    padding-top: 2vw;
     color: white;
     border-radius: 20px;
     margin-right: 12vw;
     margin-bottom: 4vh;
+    font-size: 2em;
+}
+
+#espanha{
+    border: 1px none black;
+    background-color: rgb(89,11,43);
+    padding-right: 6vw;
+    padding-left: 6vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    color: white;
+    border-radius: 20px;
+    margin-right: 12vw;
+    margin-bottom: 4vh;
+    font-size: 2em;
+}
+
+#chile{
+    border: 1px none black;
+    background-color: rgb(89,11,43);
+    padding-right: 6vw;
+    padding-left: 6vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    color: white;
+    border-radius: 20px;
+    margin-right: 12vw;
+    margin-bottom: 4vh;
+    font-size: 2em;
+   
+}
+
+#alemanha{
+    border: 1px none black;
+    background-color: rgb(89,11,43);
+    padding-right: 6vw;
+    padding-left: 6vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    color: white;
+    border-radius: 20px;
+    margin-right: 12vw;
+    margin-bottom: 4vh;
+    font-size: 2em;
+}   
+
+#italia{
+    border: 1px none black;
+    background-color: rgb(89,11,43);
+    padding-right: 6vw;
+    padding-left: 6vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    color: white;
+    border-radius: 20px;
+    margin-right: 12vw;
+    margin-bottom: 4vh;
+    font-size: 2em;
+    
+}
+
+#uruguai{
+    border: 1px none black;
+    background-color: rgb(89,11,43);
+    padding-right: 6vw;
+    padding-left: 6vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    color: white;
+    border-radius: 20px;
+    margin-right: 12vw;
+    margin-bottom: 4vh;
+    font-size: 2em;
+    
+}
+
+#frança{
+    border: 1px none black;
+    background-color: rgb(89,11,43);
+    padding-right: 6vw;
+    padding-left: 6vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    color: white;
+    border-radius: 20px;
+    margin-right: 12vw;
+    margin-bottom: 4vh;
+    font-size: 2em;
+   
+}
+
+#argentina{
+    border: 1px none black;
+    background-color: rgb(89,11,43);
+    padding-right: 6vw;
+    padding-left: 6vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    color: white;
+    border-radius: 20px;
+    margin-right: 12vw;
+    margin-bottom: 4vh;
+    font-size: 2em;
+   
+}
+
+#inglaterra{
+    border: 1px none black;
+    background-color: rgb(89,11,43);
+    padding-right: 6vw;
+    padding-left: 6vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    color: white;
+    border-radius: 20px;
+    margin-right: 12vw;
+    margin-bottom: 4vh;
+    font-size: 2em;
 }
 
 footer{
@@ -145,26 +190,28 @@ footer{
     padding-top: 20px;
     text-align: center;
     padding-bottom: 1vw;
-    font-size: 20px;
-    padding-right: 2vw;
+    font-size: 22px;
+    
    
     
 }
 
 footer, p{
-    color: white
+    color: white;
+    
 }
 
 
-section{
-    padding-left: 200px;
+
+
+ul{
+    padding-left: 12vw;
     display: grid;
     justify-items: center;
     align-items: center;
     grid-template-rows: repeat(8, 2);
     grid-template-columns: 1fr;
     gap: 20px
-    
 }
 
 aside{
@@ -176,18 +223,12 @@ aside{
   padding-right: 2vw;
   text-align: center;
   color: goldenrod;
-  font-size: 22px;
+  font-size: 26px;
   
 }
 
 
-main, div{
-   
-   background-repeat: no-repeat;
-   background-size: contain;
-   background-position: center center;
-   object-fit: cover;
-}
+
 
 img{
     width: 34vw;
@@ -195,7 +236,7 @@ img{
 
 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
 h2{
-    font-size: 14px;
+    font-size: 18px;
     
 }
 footer{
@@ -205,25 +246,39 @@ footer{
     
 }
 header{
-    font-size: 15px;
+    font-size: 14px;
     
 }
-section{
-
-padding-left: 20vw;
+ul{
+width: 50vw; 
+padding-left: 28vw;
 
     
 }
 article{
-    width: 1vw;
-    padding-left: 36vw;
+    
+    padding-left: 7vw;
     
 }
 
 aside{
-    font-size: 16px;
+    font-size: 18px;
     margin-top: -10em;
 }
+
+#botao{
+    font-size: 20px;
+    width: 16vw; 
+ }
+ 
+ #botao2{
+ 
+ width: 56vw; 
+ margin-top: 30px;
+ font-size: 20px;
+ 
+ 
+ }
 
 
 }
@@ -241,16 +296,15 @@ footer{
         
  }
 header{
-    font-size: 18px;
+    font-size: 22px;
     padding-left: 2vw;
 }
-section{
+ul{
     padding-left: 16vw;
     
 }
 article{
-    width: 1vw;
-    padding-left: 36vw;
+    padding-left: 7vw;
 }
 
 
@@ -259,7 +313,19 @@ aside{
      margin-top: -6em;
 }
         
-        
+#botao{
+    font-size: 20px;
+    width: 8vw; 
+ }
+ 
+ #botao2{
+ 
+ width: 46vw; 
+ margin-top: 30px;
+ font-size: 20px;
+ 
+ 
+ }
 
 }
 
@@ -276,7 +342,7 @@ aside{
             
      }
     header{
-        font-size: 18px;
+        font-size: 26px;
         padding-left: 2vw;
     }
     section{
@@ -284,8 +350,8 @@ aside{
         
     }
     article{
-        width: 1vw;
-        padding-left: 36vw;
+        
+        padding-left: 8vw;
     }
     
     
@@ -293,7 +359,23 @@ aside{
          font-size: 24px;
          margin-top: -6em;
     }
-            
-            
+    
+    ul{
+        padding-left: 1vw;
+    }
+    
+    #botao{
+        font-size: 20px;
+        width: 8vw; 
+     }
+     
+     #botao2{
+     
+     width: 30vw; 
+     margin-top: 30px;
+     font-size: 20px;
+     
+     
+     }
     
     }

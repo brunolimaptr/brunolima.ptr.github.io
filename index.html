@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>seleções que ganharam o mundo!</title>
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -17,79 +17,28 @@
     
     <main>
     
-        
         <article>
             <label for="nome"></label>
-            <input type="text" id="nome" name="nome" >
-            <button>Pesquisar</button>
+            <input type="text" id="name" name="name" value="">
+            <button id="botao" onclick="pesquisaItem()"><em>Filtrar</em></button>
+
+            <p for="nome"></p>
+            <button id="botao2" onclick="todasSeleçoes()"><h4> Mostrar todas as seleções</h4></button>
         </article>
 
-        <section>
-            
-                <li class="brasil" >
-                    <h2>nome: "Brasil"</h2>
-                    <h2>vitorias: 5</h2>
-                    <h2>corcamisa: "Amarela","azul"</h2>
-                    <img src="./img2/bandeira-do-brasil_540510-359.jpg" alt="bandeira do Brasil">
-                    </h2>
-                </li>
+        <section class="seleçoes">
+            <ul>
 
-                <li class="espanha">
-                    <h2>nome: "Espanha"</h2>
-                    <h2>vitorias: 1</h2>
-                    <h2>corcamisa: "Branca","Vermelha"</h2>
-                    <img src="./img2/ilustracao-de-espanha-bandeira_53876-18168.jpg" alt="bandeira da Espanha">
-                    
-                </li>
-
-                <li class="alemanha">
-                    <h2>nome: "Alemanha"</h2>
-                    <h2>vitorias: 4</h2>
-                    <h2>corcamisa: "Branca","Preta"</h2>
-                    <img src="./img2/ilustracao-de-bandeira-alema_53876-27101.png" alt="bandeira da Alemanha">
-                     
-                </li>
-
-                <li class="italia">
-                    <h2>nome: "Itália"</h2>
-                    <h2>vitorias: 4</h2>
-                    <h2>corcamisa: "Azul","Branca"</h2>
-                    <img src="./img2/ilustracao-de-bandeira-italia_53876-27098.png" alt="bandeira da Itália">
-                     
-                </li>
-
-                <li class="uruguai">
-                    <h2>nome: "Uruguai"</h2>
-                    <h2>vitorias: 2</h2>
-                    <h2>corcamisa: "Branca","Azul"</h2>
-                    <img src="./img2/bandeira-metalica-do-uruguai-bandeira-texturizada-bandeira-grunge_559531-11347.jpg" alt="bandeira do Uruguai">
-                     
-                </li>
-
-                <li class="frança">
-                    <h2>nome: "França"</h2>
-                    <h2>vitorias: 2</h2>
-                    <h2>corcamisa: "Azul","Branca"</h2>
-                    <img src="./img2/ilustracao-de-franca-bandeira_53876-27099.png" alt="bandeira da França">
-                     
-                </li>
-
-                <li class="argentina">
-                    <h2>nome: "Argentina"</h2>
-                    <h2>vitorias: 2</h2>
-                    <h2>corcamisa: "Azul","Branca"</h2>  
-                    <img src="./img2/ilustracao-de-bandeira-argentina_53876-27120.jpg" alt="bandeira da Argentina">
-                      
-                </li>
-
-                <li class="inglaterra">
-                    <h2>nome: "Inglaterra"</h2>
-                    <h2>vitorias: 1</h2>
-                    <h2>corcamisa: "Branca","Vermelha"</h2>
-                    <img src="./img2/inglaterra-bandeira-metalica-bandeira-texturizada-bandeira-grunge_559531-11171.jpg" alt="bandeira da Inglaterra">
-                     
-                </li>
-            
+                <li id="brasil"></li>
+                <li id="espanha"></li>
+                <li id="alemanha"></li>
+                <li id="italia"></li>
+                <li id="uruguai"></li>
+                <li id="frança"></li>
+                <li id="argentina"></li>
+                <li id="inglaterra"></li>
+                
+            </ul>
         </section>
     
         <aside>
