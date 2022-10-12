@@ -192,7 +192,7 @@ footer{
     padding-bottom: 1vw;
     font-size: 1.5em;
     padding-left: 2vw;
-        
+    margin: 0; 
 }
 
 footer, p{
@@ -243,6 +243,7 @@ h2{
 footer{
     font-size: 1.2em;
     padding-left: 9vw;
+    margin: 0; 
     
     
 }
@@ -296,6 +297,7 @@ h2{
 footer{
     font-size: 1.25em;
     padding-left: 8vw;
+    margin: 0; 
         
         
  }
@@ -344,6 +346,7 @@ aside{
     footer{
         font-size: 1.25em;
         padding-left: 9vw;
+        margin: 0; 
             
             
      }
