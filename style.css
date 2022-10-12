@@ -190,10 +190,8 @@ footer{
     padding-top: 20px;
     text-align: center;
     padding-bottom: 1vw;
-    font-size: 22px;
-    
-   
-    
+    font-size: 1.5em;
+        
 }
 
 footer, p{
@@ -240,8 +238,8 @@ h2{
     
 }
 footer{
-    font-size: 18px;
-    padding-left: 4vw;
+    font-size: 1.2em;
+    padding-left: 2vw;
     
     
 }
@@ -262,7 +260,7 @@ article{
 }
 
 aside{
-    font-size: 18px;
+    font-size: 15px;
     margin-top: -10em;
 }
 
@@ -290,8 +288,8 @@ h2{
         
 }
 footer{
-    font-size: 20px;
-    padding-left: 6vw;
+    font-size: 1.25em;
+    padding-left: 4vw;
         
         
  }
@@ -309,7 +307,7 @@ article{
 
 
 aside{
-     font-size: 24px;
+     font-size: 20px;
      margin-top: -6em;
 }
         
@@ -336,8 +334,8 @@ aside{
             
     }
     footer{
-        font-size: 20px;
-        padding-left: 6vw;
+        font-size: 1.25em;
+        padding-left: 5vw;
             
             
      }
