@@ -191,7 +191,8 @@ footer{
     text-align: center;
     padding-bottom: 1vw;
     font-size: 1.5em;
-    padding-left: 2vw;
+    
+    
     
 }
 
@@ -211,7 +212,8 @@ ul{
     align-items: center;
     grid-template-rows: repeat(8, 2);
     grid-template-columns: 1fr;
-    gap: 20px
+    gap: 20px;
+    padding-bottom: 2.5rem;
 
 }
 
@@ -220,7 +222,7 @@ aside{
   right: 0;
   top: 50%;
   width: 9vw;
-  margin-top: -6em;
+  margin-top: -7em;
   padding-right: 2vw;
   text-align: center;
   color: goldenrod;
@@ -228,7 +230,10 @@ aside{
   
 }
 
-
+main{
+    display: grid;
+    
+}
 
 
 img{
@@ -241,9 +246,10 @@ h2{
     
 }
 footer{
+    display: grid;
     font-size: 1.2em;
-    padding-left: 4vw;
-    margin: 0; 
+    
+   
     
     
 }
@@ -296,8 +302,8 @@ h2{
 }
 footer{
     font-size: 1.25em;
-    padding-left: 4vw;
-    margin: 0; 
+    padding-left: 2vw;
+   
         
         
  }
@@ -345,7 +351,7 @@ aside{
     }
     footer{
         font-size: 1.25em;
-        padding-left: 9vw;
+        padding-left: 7vw;
         margin: 0; 
             
             
@@ -355,7 +361,7 @@ aside{
         padding-left: 2vw;
     }
     section{
-        padding-left: 16vw;
+        padding-left: 17vw;
         
     }
     article{
@@ -370,7 +376,7 @@ aside{
     }
     
     ul{
-        padding-left: 15vw;
+        padding-left: 14vw;
     }
     
     #botao{

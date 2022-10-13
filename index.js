@@ -275,7 +275,7 @@ let documentoBrasil = document.createElement("h2")
 
 documentoBrasil.innerText = (`Brasil 
 
-Titulos: 
+Títulos: 
 (1958, 1962, 1970, 1994 e 2002) 
 
 Quantidade: 5`)
@@ -299,7 +299,7 @@ let documentoEspanha = document.createElement("h2")
 
 documentoEspanha.innerText = (`Espanha
 
-Titulo: 
+Título:  
 (2010)
 
 Quantidade: 1`)
@@ -323,7 +323,7 @@ let documentoAlemanha = document.createElement("h2")
 
 documentoAlemanha.innerText = (`Alemanha
 
-Titulos: 
+Títulos: 
 (1954, 1974, 1990 e 2014)
  
 Quantidade: 4`)
@@ -347,7 +347,7 @@ let documentoItalia = document.createElement("h2")
 
 documentoItalia.innerText = (`Italia
 
-Titulos: 
+Títulos:  
 (1934, 1938, 1982 e 2006)
 
 Quantidade: 4`)
@@ -371,7 +371,7 @@ let documentoUruguai = document.createElement("h2")
 
 documentoUruguai.innerText = (`Uruguai
 
-Titulos: 
+Títulos:  
 (1930 e 1950)
 
 Quantidade: 2`)
@@ -395,7 +395,7 @@ let documentoFrança = document.createElement("h2")
 
 documentoFrança.innerText = (`França
 
-Titulos: 
+Títulos:  
 (1998 e 2018)
 
 Quantidade: 2`)
@@ -419,7 +419,7 @@ let documentoArgentina = document.createElement("h2")
 
 documentoArgentina.innerText = (`Argentina
 
-Titulos: 
+Títulos: 
 (1978 e 1986)
 
 Quantidade: 2`)
@@ -444,7 +444,7 @@ let documentoInglaterra = document.createElement("h2")
 
 documentoInglaterra.innerText = (`Inglaterra
 
-Titulo: 
+Título: 
 (1966)
 
 Quantidade: 1`)
