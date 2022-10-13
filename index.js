@@ -467,7 +467,7 @@ function pesquisaItem(){
 let input = document.getElementById("name")
     
     
-if(input.value.toUpperCase() === "BRASIL"){
+if(input.value.toUpperCase().trim() === "BRASIL"){
     
 let addBrasil = document.getElementById("brasil")
 addBrasil.style.display = "block"    
@@ -494,7 +494,7 @@ let removerInglaterra = document.getElementById("inglaterra")
 removerInglaterra.style.display = "none"}
 
 
-else if(input.value.toUpperCase() === "ESPANHA"){
+else if(input.value.toUpperCase().trim() === "ESPANHA"){
 
 let addEspanha = document.getElementById("espanha")
 addEspanha.style.display = "block"  
@@ -521,7 +521,7 @@ let removerInglaterra = document.getElementById("inglaterra")
 removerInglaterra.style.display = "none"}
 
 
-else if(input.value.toUpperCase() === "ALEMANHA"){
+else if(input.value.toUpperCase().trim() === "ALEMANHA"){
     
 let addAlemanha = document.getElementById("alemanha")
 addAlemanha.style.display = "block" 
@@ -548,7 +548,7 @@ let removerInglaterra = document.getElementById("inglaterra")
 removerInglaterra.style.display = "none"}
 
 
-else if(input.value.toUpperCase() === "ITALIA"){
+else if(input.value.toUpperCase().trim() === "ITALIA"){
     
 let addItala = document.getElementById("italia")
 addItala.style.display = "block" 
@@ -575,7 +575,7 @@ let removerInglaterra = document.getElementById("inglaterra")
 removerInglaterra.style.display = "none"}
 
 
-else if(input.value.toUpperCase() === "URUGUAI"){
+else if(input.value.toUpperCase().trim() === "URUGUAI"){
     
 let addUruguai = document.getElementById("uruguai")
 addUruguai.style.display = "block" 
@@ -602,7 +602,7 @@ let removerInglaterra = document.getElementById("inglaterra")
 removerInglaterra.style.display = "none"}
 
 
-else if(input.value.toUpperCase() === "FRANÇA"){
+else if(input.value.toUpperCase().trim() === "FRANÇA"){
         
 let addFrança = document.getElementById("frança")
 addFrança.style.display = "block" 
@@ -629,7 +629,7 @@ let removerInglaterra = document.getElementById("inglaterra")
 removerInglaterra.style.display = "none"}
         
     
-else if(input.value.toUpperCase() === "ARGENTINA"){
+else if(input.value.toUpperCase().trim() === "ARGENTINA"){
     
 let addArgentina = document.getElementById("argentina")
 addArgentina.style.display = "block" 
@@ -656,7 +656,7 @@ let removerInglaterra = document.getElementById("inglaterra")
 removerInglaterra.style.display = "none"}
 
 
-else if(input.value.toUpperCase() === "INGLATERRA"){
+else if(input.value.toUpperCase().trim() === "INGLATERRA"){
     
 let addInglaterra = document.getElementById("inglaterra")
 addInglaterra.style.display = "block" 

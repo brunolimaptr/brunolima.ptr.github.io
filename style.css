@@ -191,9 +191,8 @@ footer{
     text-align: center;
     padding-bottom: 1vw;
     font-size: 1.5em;
-    
-    
-    
+    padding-left: 1vw;
+    bottom: 0;
 }
 
 footer, p{
@@ -231,7 +230,8 @@ aside{
 }
 
 main{
-    display: grid;
+     min-height: 85vh;
+    
     
 }
 
@@ -246,9 +246,11 @@ h2{
     
 }
 footer{
+
     font-size: 1.2em;
     padding-bottom: 2vh;
- 
+    padding-left: 4vw;
+    
 }
 header{
     font-size: 14px;
@@ -289,6 +291,8 @@ aside{
  }
 
 
+
+
 }
    
 @media screen and (min-device-width : 481px) and (max-device-width : 800px){
@@ -299,7 +303,7 @@ h2{
 }
 footer{
     font-size: 1.25em;
-    padding-left: 2vw;
+    padding-left: 4vw;
     padding-bottom: 2vh;    
         
  }
@@ -385,8 +389,9 @@ aside{
      width: auto; 
      margin-top: 30px;
      font-size: 20px;
-     
-     
      }
     
     }
+
+    
+    
