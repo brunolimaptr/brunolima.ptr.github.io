@@ -187,7 +187,7 @@ button:active{
 footer{
     background-color: rgb(89,11,43);
     border: 2px solid gold;
-    padding-top: 20px;
+    padding-top: 2vh;
     text-align: center;
     padding-bottom: 1vw;
     font-size: 1.5em;
@@ -246,12 +246,9 @@ h2{
     
 }
 footer{
-    display: grid;
     font-size: 1.2em;
-    
-   
-    
-    
+    padding-bottom: 2vh;
+ 
 }
 header{
     font-size: 14px;
@@ -303,8 +300,7 @@ h2{
 footer{
     font-size: 1.25em;
     padding-left: 2vw;
-   
-        
+    padding-bottom: 2vh;    
         
  }
 header{
@@ -351,8 +347,8 @@ aside{
     }
     footer{
         font-size: 1.25em;
-        padding-left: 7vw;
-        margin: 0; 
+        padding-left: 4vw;
+        padding-bottom: 2vh;
             
             
      }
@@ -376,7 +372,7 @@ aside{
     }
     
     ul{
-        padding-left: 14vw;
+        padding-left: 12vw;
     }
     
     #botao{
