@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding-top: 3.8vh;
+    background-color: rgb(89,11,43);
+    border: 2px solid gold;
+    text-align: center;
+    padding-bottom: 2.5vw;
+    font-size: 34px;
+    
+}
+
+a{
+    color: goldenrod;
+}
+
+article{
+    width: 90vw;
+    padding-top: 4vh;
+    padding-bottom: 5vh;
+    text-align: center;
+    padding-left: 4vw;
+
+    
+}
+
+#name{
+    font-size: 20px;
+}
+
+#botao{
+   font-size: 20px;
+   width: auto; 
+}
+
+#botao2{
+
+width: auto; 
+margin-top: 30px;
+font-size: 20px;
+
+
+}
+
+
+button:active{
+    background-color: white;
+    
+    
+}
+
+
+#brasil{
+    border: 1px none black;
+    background-color: rgb(89,11,43);
+    padding-right: 6vw;
+    padding-left: 6vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    color: white;
+    border-radius: 20px;
+    margin-right: 12vw;
+    margin-bottom: 4vh;
+    font-size: 2em;
+}
+
+#espanha{
+    border: 1px none black;
+    background-color: rgb(89,11,43);
+    padding-right: 6vw;
+    padding-left: 6vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    color: white;
+    border-radius: 20px;
+    margin-right: 12vw;
+    margin-bottom: 4vh;
+    font-size: 2em;
+}
+
+#chile{
+    border: 1px none black;
+    background-color: rgb(89,11,43);
+    padding-right: 6vw;
+    padding-left: 6vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    color: white;
+    border-radius: 20px;
+    margin-right: 12vw;
+    margin-bottom: 4vh;
+    font-size: 2em;
+   
+}
+
+#alemanha{
+    border: 1px none black;
+    background-color: rgb(89,11,43);
+    padding-right: 6vw;
+    padding-left: 6vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    color: white;
+    border-radius: 20px;
+    margin-right: 12vw;
+    margin-bottom: 4vh;
+    font-size: 2em;
+}   
+
+#italia{
+    border: 1px none black;
+    background-color: rgb(89,11,43);
+    padding-right: 6vw;
+    padding-left: 6vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    color: white;
+    border-radius: 20px;
+    margin-right: 12vw;
+    margin-bottom: 4vh;
+    font-size: 2em;
+    
+}
+
+#uruguai{
+    border: 1px none black;
+    background-color: rgb(89,11,43);
+    padding-right: 6vw;
+    padding-left: 6vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    color: white;
+    border-radius: 20px;
+    margin-right: 12vw;
+    margin-bottom: 4vh;
+    font-size: 2em;
+    
+}
+
+#frança{
+    border: 1px none black;
+    background-color: rgb(89,11,43);
+    padding-right: 6vw;
+    padding-left: 6vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    color: white;
+    border-radius: 20px;
+    margin-right: 12vw;
+    margin-bottom: 4vh;
+    font-size: 2em;
+   
+}
+
+#argentina{
+    border: 1px none black;
+    background-color: rgb(89,11,43);
+    padding-right: 6vw;
+    padding-left: 6vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    color: white;
+    border-radius: 20px;
+    margin-right: 12vw;
+    margin-bottom: 4vh;
+    font-size: 2em;
+   
+}
+
+#inglaterra{
+    border: 1px none black;
+    background-color: rgb(89,11,43);
+    padding-right: 6vw;
+    padding-left: 6vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    color: white;
+    border-radius: 20px;
+    margin-right: 12vw;
+    margin-bottom: 4vh;
+    font-size: 2em;
+}
+
+footer{
+    background-color: rgb(89,11,43);
+    border: 2px solid gold;
+    padding-top: 2vh;
+    text-align: center;
+    padding-bottom: 1vw;
+    font-size: 1.5em;
+    padding-left: 1vw;
+    bottom: 0;
+}
+
+footer, p{
+    color: white;
+    
+}
+
+
+
+
+ul{
+    width: 50vw;
+    padding-left: 27vw;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: repeat(8, 2);
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-bottom: 2.5rem;
+
+}
+
+aside{
+  position: fixed;
+  right: 0;
+  top: 50%;
+  width: 9vw;
+  margin-top: -7em;
+  padding-right: 2vw;
+  text-align: center;
+  color: goldenrod;
+  font-size: 26px;
+  
+}
+
+main{
+     min-height: 85vh;
+    
+    
+}
+
+
+img{
+    width: 34vw;
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+h2{
+    font-size: 18px;
+    
+}
+footer{
+
+    font-size: 1.2em;
+    padding-bottom: 2vh;
+    padding-left: 4vw;
+    
+}
+header{
+    font-size: 14px;
+    
+}
+ul{
+width: 50vw; 
+padding-left: 29vw;
+
+    
+}
+article{
+    
+    padding-left: 7vw;
+    
+}
+
+aside{
+    font-size: 16px;
+    margin-top: -2em;
+    width: 14vw; 
+}
+
+#botao{
+    font-size: 20px;
+    width: auto; 
+   
+
+ }
+ 
+ #botao2{
+ 
+ width: auto; 
+ margin-top: 30px;
+ font-size: 20px;
+ 
+ 
+ }
+
+
+
+
+}
+   
+@media screen and (min-device-width : 481px) and (max-device-width : 800px){
+
+h2{
+    font-size: 20px;
+        
+}
+footer{
+    font-size: 1.25em;
+    padding-left: 4vw;
+    padding-bottom: 2vh;    
+        
+ }
+header{
+    font-size: 22px;
+    padding-left: 2vw;
+}
+ul{
+    padding-left: 29vw;
+    
+}
+article{
+    
+    padding-left: 7vw;
+}
+
+
+aside{
+     font-size: 20px;
+     margin-top: -2em;
+     width: 14vw; 
+}
+        
+#botao{
+    font-size: 20px;
+    width: auto; 
+ }
+ 
+ #botao2{
+ 
+ width: auto; 
+ margin-top: 30px;
+ font-size: 20px;
+ 
+ 
+ }
+
+}
+
+@media screen and (min-device-width : 801px) and (max-device-width : 1200px){
+
+    h2{
+        font-size: 20px;
+            
+    }
+    footer{
+        font-size: 1.25em;
+        padding-left: 4vw;
+        padding-bottom: 2vh;
+            
+            
+     }
+    header{
+        font-size: 26px;
+        padding-left: 2vw;
+    }
+    section{
+        padding-left: 17vw;
+        
+    }
+    article{
+        
+        padding-left: 8vw;
+    }
+    
+    
+    aside{
+         font-size: 24px;
+         margin-top: -6em;
+    }
+    
+    ul{
+        padding-left: 12vw;
+    }
+    
+    #botao{
+        font-size: 20px;
+        width: auto; 
+     }
+     
+     #botao2{
+     
+     width: auto; 
+     margin-top: 30px;
+     font-size: 20px;
+     }
+    
+    }
+
+    
+    
